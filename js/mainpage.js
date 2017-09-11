@@ -51,6 +51,7 @@ $scope.submitq=function(askObj){
 			},
 			"answer":""
 		});
+		$("ul li a#myquestslink").trigger("click");
 
 
 	}else{
