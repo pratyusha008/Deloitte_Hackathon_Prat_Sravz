@@ -1,3 +1,7 @@
+
+.error-text{
+	color:#d0021b;
+}
 .dg-container{
 	margin-top: 20px;
 }
@@ -6,7 +10,11 @@
 	margin:50px auto;
 	height:380px;
 }
-.dg-login-btn,.dg-register-btn{
+.dg-question-form{
+	max-width:320px;
+	margin: 0 auto
+}
+.dg-login-btn,.dg-register-btn,.dg-question-sub-btn{
 	margin-top: 30px
 }
 .dg-reglink{
@@ -30,4 +38,26 @@
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #fff;
 	border-bottom: 1px solid #000099
+}
+
+
+/*Main Sections*/
+.main-section{
+	padding: 10px 20px;
+	margin: 0 auto;
+	max-width: 800px;
+}
+.ques-block{
+	border-bottom:1px solid #000;
+}
+.question-head{
+	font-weight:bold;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+textarea{
+	display: inline-block;
+	margin-top: 20px;
 }
