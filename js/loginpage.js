@@ -39,6 +39,7 @@ var app=angular.module("loginApp",[]);
               	if(usr && pwd){
               		angular.forEach($scope.loginObj,function(value,index){
               			if(value.usrname == usr && value.pwd == pwd){
+                           sessionStorage.setItem('loginId', JSON.stringify(value));
                            window.location.href="./pages/mainpage.html";
                            $scope.showmsg=false;
               			} 
